@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Navigation */
+/* Navigacion */
 nav {
     position: fixed;
     top: 0;
@@ -58,7 +58,7 @@ nav {
     color: #fff;
 }
 
-/* Hero Section with Photo */
+/* Hero  */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -147,7 +147,7 @@ nav {
     background: rgba(255, 255, 255, 0.05);
 }
 
-/* Photo Gallery/Carousel */
+/* Galeria/Carousel */
 .hero-photo {
     position: relative;
     height: 600px;
@@ -216,7 +216,7 @@ nav {
     border-radius: 5px;
 }
 
-/* About Section */
+/* Section */
 .section {
     padding: 8rem 2rem;
     max-width: 1200px;
@@ -284,7 +284,7 @@ nav {
     font-size: 0.9rem;
 }
 
-/* Experience Section */
+/* Experiencia */
 .experience-timeline {
     position: relative;
     padding-left: 3rem;
@@ -357,7 +357,7 @@ nav {
     list-style-position: inside;
 }
 
-/* Skills Section */
+/* Skills  */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
