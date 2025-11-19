@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Alba - Desarrollador Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">DA</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Desarrollador Web Junior</p>
+                <h1 class="hero-title">Diego Armando Alba</h1>
+                <p class="hero-description">
+                    Desarrollador Web Junior.
+                    Combinando experiencia técnica con sólida formación en telecomunicaciones para
+                    crear soluciones innovadoras y eficientes.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contacto" class="btn btn-primary">Contactar</a>
+                    <a href="https://www.linkedin.com/in/diego-armando-alba-77b75b24b" target="_blank"
+                        class="btn btn-secondary">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-photo">
+                <div class="photo-slider">
+                    <div class="photo-slide active">
+                        <img src="img/IMG_20211101_172909.jpg" alt="Diego Alba Foto 1" id="photo1">
+                    </div>
+                    <div class="photo-slide">
+                        <img src="img/IMG_20211101_173100.jpg" alt="Diego Alba Foto 2" id="photo2">
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    Soy un <span class="highlight">Desarrollador Web Junior</span> con experiencia práctica en
+                    desarrollo Full Stack y una sólida formación en Telecomunicaciones. Actualmente cursando
+                    <span class="highlight">Ingeniería de Software</span> en la Fundación Universitaria Compensar.
+                </p>
+                <p>
+                    Mi experiencia incluye Desarrollador Web con experiencia en la creación de aplicaciones y
+                    sitios web utilizando tecnologías fundamentales como HTML, CSS y JavaScript.
+                    Conocimientos sólidos en gestión de bases de datos relacionales con MySQL y PostgreSQL.
+                    He trabajado tanto en el Front-End como en el
+                    Back-End, creando soluciones completas que satisfacen las necesidades específicas de cada proyecto.
+                </p>
+                <p>
+                    Además, cuento con experiencia en <span class="highlight">pruebas de software</span>, análisis de
+                    requisitos, y gestión de infraestructura TI, lo que me permite tener una visión integral del
+                    ciclo de desarrollo de software.
+                </p>
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Tecnologías</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Compromiso</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="experiencia">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <p class="experience-date">Mayo 2022 - Noviembre 2023</p>
+                <h3 class="experience-title">Desarrollador de Software</h3>
+                <p class="experience-company">Freelancer</p>
+                <ul class="experience-description">
+                    <li>Desarrollo de aplicaciones sencillas utilizando Java, HTML5, JavaScript, CSS, MySQL
+                        y PostgreSQL</li>
+                    <li>Realización de pruebas de software manuales y automáticas, identificación de bugs y generación
+                        de reportes</li>
+                    <li>Desarrollo tanto en Front-End como en Back-End</li>
+                    <li>Colaboración con diversos clientes para satisfacer necesidades específicas de desarrollo</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <p class="experience-date">Noviembre 2022 - Noviembre 2023</p>
+                <h3 class="experience-title">Analista Help Desk</h3>
+                <p class="experience-company">Covisian Group</p>
+                <ul class="experience-description">
+                    <li>Clasificación, coordinación y gestión de requerimientos de servicio de usuarios</li>
+                    <li>Gestión integral de infraestructura de red, software y hardware para 200 empleados</li>
+                    <li>Análisis y monitoreo de infraestructura TI, servidores, bases de datos y aplicaciones</li>
+                    <li>Uso de CRM para gestión de tickets y verificación de equipos</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <p class="experience-date">Febrero 2022 - Septiembre 2022</p>
+                <h3 class="experience-title">Líder de Mesa de Ayuda</h3>
+                <p class="experience-company">Technet Comunicaciones S.A.S</p>
+                <ul class="experience-description">
+                    <li>Gestión de proyectos de infraestructura de redes</li>
+                    <li>Supervisión de instalaciones realizadas por cuadrillas</li>
+                    <li>Configuración de equipos de fibra óptica y radio enlaces</li>
+                    <li>Documentación de informes técnicos y de gestión</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <p class="experience-date">Abril 2019 - Agosto 2021</p>
+                <h3 class="experience-title">Técnico de Implementación de Software</h3>
+                <p class="experience-company">CM Colombia Dispensario S.A.S</p>
+                <ul class="experience-description">
+                    <li>Soporte durante procesos de implementación de software</li>
+                    <li>Realización de pruebas exhaustivas y diseño de programas de capacitación</li>
+                    <li>Corrección de problemas identificados durante pruebas</li>
+                    <li>Monitoreo del rendimiento post-implementación</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="habilidades">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-name">HTML5</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-name">CSS3</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-name">JavaScript</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Java</div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-name">MySQL</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-name">PostgreSQL</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-name">Scrum</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Illustrator</div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-name">Redes</div>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem;">
+            <h3 style="font-size: 2rem; margin-bottom: 2rem;">Habilidades Blandas</h3>
+            <div class="about-text">
+                <p>✓ Máximo grado de compromiso con los proyectos</p>
+                <p>✓ Orientado siempre al trabajo en equipo</p>
+                <p>✓ Preparado para el liderazgo</p>
+                <p>✓ Capacidad para tomar la iniciativa</p>
+                <p>✓ Especialmente resolutivo en situaciones de crisis y emergencia</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-content">
+            <p class="contact-text">
+                ¿Interesado en trabajar juntos? No dudes en contactarme.
+                Estoy abierto a nuevas oportunidades y proyectos desafiantes.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:diegoarmandoalba74@gmail.com" class="contact-link">
+                     Email
+                </a>
+                <a href="tel:+573155726264" class="contact-link">
+                     +57 315-572-6264
+                </a>
+                <a href="https://www.linkedin.com/in/diego-armando-alba-77b75b24b" target="_blank" class="contact-link">
+                     LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Diego Armando Alba. Todos los derechos reservados.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Desarrollado con HTML5, CSS3 y JavaScript</p>
+    </footer>
+
+    <script src="/script/app.js"></script>
+</body>
+
+</html>
